@@ -1,0 +1,14 @@
+table, td {
+    border: 1px solid black
+}
+.Parent {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.Child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
